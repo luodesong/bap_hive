@@ -1,0 +1,12 @@
+server:
+  port: 8080
+spring:
+  mvc:
+    view:
+      prefix: /WEB-INF/views/
+      suffix: .jsp
+  datasource:
+    url: jdbc:mysql://LuoDeSong:3306/qfbap_dm
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: 123456
